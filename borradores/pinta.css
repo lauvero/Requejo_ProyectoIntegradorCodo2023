@@ -1,0 +1,145 @@
+
+.cabecera{
+
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: 100px;
+    background-color: #d3b7e4;
+}
+.logo{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width: auto;
+    font-family: sans-serif;
+}
+.marca{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        width: auto;
+        font-family: sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: 10px;
+    
+}/*ENLACES A LAS CAJAS*/
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	display: inline-block;
+	height: 100px;
+	line-height: 100px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+/*Gift cards o promos*/
+.promo{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: 16px;
+    }
+    .regalo1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width: auto;
+    background-color: #48067e;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    }
+    .regalo2{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        width: auto;
+        background-color: #0e8039;
+        border: 1px solid lightgray;
+        box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+        border-radius:15px;
+        font-family: sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .regalo3{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        width: auto;
+        background-color: #b77a2b;
+        border: 1px solid lightgray;
+        box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+        border-radius:15px;
+        font-family: sans-serif;
+        color: #fff;
+        text-align: center;
+        }
+    
+    .cuerpo{
+    padding: 10px;
+    flex: 1 1 100%;
+    }
+    
+    
+    *{
+    box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: "Segoe UI",Arial,sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      background-color: #fff;
+    }
+
+    .zapato{
+        display: flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap: 10px;
+    }
+    .iconos{
+            display: flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap: 10px;
+    }
+    .caja{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        width: auto;
+        background-color: #97c8b4;
+        border: 1px solid lightgray;
+        box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+        border-radius:15px;
+        font-family: sans-serif;
+        }
+        
+       
